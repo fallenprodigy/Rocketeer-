@@ -14,9 +14,11 @@ body {
 .container {
   min-height: 100vh;
   display: flex;
+  position: relative;
 }
 
 .left {
+  position: relative;
   width: 50vw;
   background-color: white;
 }
@@ -34,11 +36,15 @@ h1 {
   color: #fe3b1f;
   font-size: 48px;
   position: absolute;
-  top: 60px;
+  top: 70px;
+  left: 110px;
 }
 
 p {
-  font-size: 24px;
+  width: 70%;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 200%;
   color: white;
   display: flex;
   align-items: center;
@@ -47,7 +53,7 @@ p {
 
 .left-h1 {
   position: relative;
-  left: 100px;
+  left: 120px;
 }
 
 .inputs {
@@ -56,5 +62,21 @@ p {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  top: 300px;
+  top: 120px;
+}
+
+input {
+  padding: 10px;
+  margin: 15px;
+  width: 45%;
+  font-style: italic;
+}
+
+.slider {
+  position: absolute;
+  left: 280px;
+  bottom: 90px;
+}
+img {
+  margin: 5px;
 }
