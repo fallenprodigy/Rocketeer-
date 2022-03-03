@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Rowdies:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rowdies", cursive;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 50vw;
+  background-color: white;
+}
+.right {
+  position: relative;
+  width: 50vw;
+  background-color: #151718;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fe3b1f;
+  font-size: 48px;
+  position: absolute;
+  top: 60px;
+}
+
+p {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-h1 {
+  position: relative;
+  left: 100px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 300px;
+}
