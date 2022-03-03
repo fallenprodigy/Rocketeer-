@@ -1,0 +1,85 @@
+p {
+  width: 70%;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 200%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 50px;
+}
+
+.content {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 40px;
+  right: 30px;
+}
+
+.text {
+  position: absolute;
+  color: #000000;
+  font-size: 18px;
+  top: 150px;
+  left: 40px;
+  width: 100%;
+}
+
+.stuff-1 {
+  position: relative;
+  top: 190px;
+  left: 120px;
+}
+
+.label-1 {
+  position: relative;
+  right: 30px;
+}
+
+.text-2 {
+  position: absolute;
+  color: #000000;
+  font-size: 18px;
+  top: 300px;
+  right: 60px;
+  width: 100%;
+}
+
+.textarea-1 {
+  position: relative;
+  top: 350px;
+  left: 20px;
+  width: 500px;
+  height: 100px;
+  resize: none;
+  outline: none;
+}
+.text-3 {
+  position: absolute;
+  color: #000000;
+  font-size: 18px;
+  top: 480px;
+  right: 130px;
+  width: 100%;
+}
+
+.textarea-2 {
+  position: absolute;
+  top: 530px;
+  left: 145px;
+  width: 500px;
+  height: 60px;
+  resize: none;
+  outline: none;
+}
+
+.slider {
+  position: absolute;
+  left: 260px;
+  bottom: 50px;
+}

@@ -21,6 +21,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
+  /* position: relative; */
 }
 
 .text {
@@ -28,5 +29,59 @@ body {
   color: #000000;
   font-size: 18px;
   top: 150px;
+  left: 40px;
+}
+
+.stuff-1 {
+  position: relative;
+  top: 190px;
+  left: 100px;
+}
+
+input {
+  margin: 10px;
+  position: relative;
+}
+
+.label-1 {
+  position: relative;
+  right: 80px;
+}
+
+.text-2 {
+  position: absolute;
+  color: #000000;
+  font-size: 18px;
+  top: 350px;
   left: 20px;
+}
+
+.stuff-2 {
+  position: relative;
+  top: 380px;
+  right: 220px;
+}
+.text-3 {
+  position: absolute;
+  color: #000000;
+  font-size: 18px;
+  top: 500px;
+  right: 295px;
+}
+
+.stuff-3 {
+  position: relative;
+  top: 520px;
+  right: 320px;
+}
+
+.input-3 {
+  width: 200%;
+  all: 0;
+}
+
+.slider {
+  position: absolute;
+  left: 260px;
+  bottom: 30px;
 }
