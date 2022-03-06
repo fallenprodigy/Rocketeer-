@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Rowdies:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rowdies", cursive;
+  background-color: #151718;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  margin-top: 50px;
+  font-size: 56px;
+  letter-spacing: 0.11em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#applicants {
+  background-color: #fe3b1f;
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+}
