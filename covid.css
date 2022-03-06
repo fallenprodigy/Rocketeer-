@@ -85,3 +85,40 @@ input {
   left: 260px;
   bottom: 30px;
 }
+
+.text-4 {
+  position: absolute;
+  color: #000000;
+  font-size: 18px;
+  top: 650px;
+  left: 20px;
+}
+
+.stuff-4 {
+  position: relative;
+  top: 680px;
+  right: 500px;
+}
+
+.text-5 {
+  position: absolute;
+  color: #000000;
+  font-size: 18px;
+  top: 800px;
+  left: 85px;
+}
+
+.stuff-5 {
+  position: relative;
+  top: 810px;
+  right: 400px;
+}
+
+.input-5 {
+  width: 200%;
+  all: 0;
+}
+
+.right {
+  height: 130vh;
+}
