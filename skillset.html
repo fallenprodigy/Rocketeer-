@@ -7,26 +7,25 @@
     <title>Technical Skillset</title>
     <link rel="stylesheet" href="start.css" />
     <link rel="stylesheet" href="skillset.css" />
-    <script defer src="./skillset.js"></script>
+    <script src="./skillset.js" defer></script>
   </head>
   <body>
     <div class="container">
       <div class="left">
         <h1 class="left-h1">Tell us about your skills</h1>
-        <div class="inputs">
-          <select name="" id="skills">
-            <option value="Skills">Skills</option>
-            <!-- <input placeholder="        Skills" type="text" /> -->
-          </select>
-          <input
-            placeholder="        Experience Duration in Years"
-            type="text"
-          />
-          <button>Add Programming Language</button>
-          <br />
-          <!-- <input placeholder="PHP       Years of Experience: 3" type="text" />
-          <input type="text" placeholder="React      Years of Experience: 2" /> -->
-        </div>
+        <form action="">
+          <div class="inputs">
+            <select name="" id="skills">
+              <option value="Skills">Skills</option>
+            </select>
+            <input placeholder="Experience Duration in Years" type="text" />
+            <button class="button" type="button">
+              Add Programming Language
+            </button>
+            <br />
+            <div class="newInput" id="newElementId"></div>
+          </div>
+        </form>
         <div class="slider">
           <a href="./start.html">
             <img src="./assets/Previous.png" alt="" />
@@ -53,5 +52,6 @@
         </p>
       </div>
     </div>
+    <script src="./skillset.js"></script>
   </body>
 </html>

@@ -20,3 +20,20 @@ const displayOption = async () => {
 };
 
 displayOption();
+
+const button = document.querySelector(".button");
+
+button.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  addLanguage();
+});
+
+const addLanguage = () => {
+  let txtNewInputBox = document.createElement("div");
+
+  txtNewInputBox.innerHTML =
+    "<input type='text' class='newInput' id='newInputBox'>";
+
+  document.getElementById("newElementId").appendChild(txtNewInputBox);
+};
